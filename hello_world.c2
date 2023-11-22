@@ -1,0 +1,8 @@
+module hello_world;
+
+import stdio as io;
+
+public fn i32 main(i32 argc, char** argv) {
+    io.printf("Hello, world!\n");
+    return 0;
+}
